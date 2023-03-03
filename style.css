@@ -1,0 +1,83 @@
+* {
+    
+    font-family: Poppins, Verdana, sans-serif;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.recipe-header {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 10px;
+}
+
+h1.recipe-header {
+    border-radius: 1px;
+    border-bottom: 2em;
+    border-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+div.first-recipe {
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.second-recipe {
+    margin: 20px;
+    padding: 30px;   
+    background-color: white; 
+    border-radius: 10px;
+}
+
+div.third-recipe {
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    margin-top: 20px;
+    color: darkgrey;
+}
+
+button {
+    background-color: black;
+    border: 0px;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+button a {
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
